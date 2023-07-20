@@ -15,7 +15,14 @@ public class HomeController {
 	}
 	@RequestMapping("/")
 	public String index() {
+<<<<<<< HEAD
 		log.info("실행");
+=======
+		log.info("실행1");
+		log.info("실행2");
+		log.info("실행3");
+		log.info("실행4");
+>>>>>>> branch 'master' of https://github.com/space8033/springhomework.git
 		
 		return "home";
 	}
